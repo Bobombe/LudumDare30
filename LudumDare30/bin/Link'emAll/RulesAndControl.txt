@@ -1,0 +1,18 @@
+This is a very first version, because I'm not sure to be able to work more today.
+There is the RULES:
+ - You are the little pacman like yellow disc
+ - You lose if you stay too long in space without touching a planete or a bridge (4 to 5 seconds => press "E")
+ - You lose if you touch the Sun (The big red thing in the middle ^^)
+ - You Win if all the planete are linked (blue bridge)
+ - Make it more difficult : you can not pass twice on a planet
+
+There is the Controls :
+ - S     : Roll Counter Clockwise
+ - D     : Stooooaaaaapppp
+ - F     : Roll Clockwise
+ - E     : Reset
+ - Space : Jump!! Not very efficient...
+ - Click : While you are on a Planet, click on another one : it will make a Bridge :)
+           When you complete crossing a bridge, it become blue and will stay forever :D
+
+Enjoy... maybe a little^^
