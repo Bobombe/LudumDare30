@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LudumDare30" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LudumDare30" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="_Librairies/SFML/include" />
+					<Add directory="_Librairies/Moteur2D" />
+					<Add directory="LudumDare30" />
+					<Add directory="../_Librairies/SFML/include" />
+					<Add directory="../_Librairies/Moteur2D" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add directory="_Librairies/SFML/lib" />
+					<Add directory="../_Librairies/SFML/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LudumDare30" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../_Librairies/SFML/include" />
+					<Add directory="../_Librairies/Moteur2D" />
+					<Add directory="LudumDare30" />
+					<Add directory="_Librairies/SFML/include" />
+					<Add directory="_Librairies/Moteur2D" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-mwindows" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add directory="../_Librairies/SFML/lib" />
+					<Add directory="_Librairies/SFML/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../_Librairies/Moteur2D/animatedobject.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/animatedobject.h" />
+		<Unit filename="../_Librairies/Moteur2D/animatedshape.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/animatedshape.h" />
+		<Unit filename="../_Librairies/Moteur2D/animatedsprite.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/animatedsprite.h" />
+		<Unit filename="../_Librairies/Moteur2D/concretebackground.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/concretebackground.h" />
+		<Unit filename="../_Librairies/Moteur2D/eventmanager.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/eventmanager.h" />
+		<Unit filename="../_Librairies/Moteur2D/fixedobject.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/fixedobject.h" />
+		<Unit filename="../_Librairies/Moteur2D/fixedshape.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/fixedshape.h" />
+		<Unit filename="../_Librairies/Moteur2D/fixedsprite.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/fixedsprite.h" />
+		<Unit filename="../_Librairies/Moteur2D/gravity.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/gravity.h" />
+		<Unit filename="../_Librairies/Moteur2D/ketboardlistener.h" />
+		<Unit filename="../_Librairies/Moteur2D/keyboardlistener.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/moteur2d.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/moteur2d.h" />
+		<Unit filename="../_Librairies/Moteur2D/mouselistener.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/mouselistener.h" />
+		<Unit filename="../_Librairies/Moteur2D/updatable.h" />
+		<Unit filename="../_Librairies/Moteur2D/view.cpp" />
+		<Unit filename="../_Librairies/Moteur2D/view.h" />
+		<Unit filename="MainDev.cpp" />
+		<Unit filename="bridge.cpp" />
+		<Unit filename="bridge.h" />
+		<Unit filename="maincharacter.cpp" />
+		<Unit filename="maincharacter.h" />
+		<Unit filename="planete.cpp" />
+		<Unit filename="planete.h" />
+		<Unit filename="worldmanager.cpp" />
+		<Unit filename="worldmanager.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

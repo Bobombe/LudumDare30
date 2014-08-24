@@ -1,0 +1,8 @@
+# Fichier de configuration d'un monde pour SDF
+# Game made for Ludum Dare 30
+#
+# Position du perso donnée par la première Planette
+# Planete : (posX posY gainVitSens)
+-1000 0 1 1
+0 300 1 -1
+800 0 0.8 1
